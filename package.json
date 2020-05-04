@@ -1,0 +1,22 @@
+{
+  "name": "vulns",
+  "version": "1.0.0",
+  "description": "JavaScript client for the Vulns project.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bradhe/vulns-js.git"
+  },
+  "author": "Brad Heller <brad.heller@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bradhe/vulns-js/issues"
+  },
+  "homepage": "https://github.com/bradhe/vulns-js#readme",
+  "dependencies": {
+    "superagent": "^5.2.2"
+  }
+}

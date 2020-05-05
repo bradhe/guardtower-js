@@ -1,7 +1,7 @@
 {
-  "name": "vulns",
-  "version": "1.0.0",
-  "description": "JavaScript client for the Vulns project.",
+  "name": "guardtower",
+  "version": "0.1.0",
+  "description": "JavaScript client for Guardtower.",
   "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

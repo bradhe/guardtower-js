@@ -1,9 +1,16 @@
 {
   "name": "guardtower",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "JavaScript client for Guardtower.",
   "main": "lib/index.js",
+  "files": [
+    "lib/hmac.js"
+  ],
+  "engines": {
+    "node": ">=6"
+  },
   "scripts": {
+    "build": "build-esm",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,6 +24,10 @@
   },
   "homepage": "https://github.com/bradhe/vulns-js#readme",
   "dependencies": {
+    "base64url": "^3.0.1",
     "superagent": "^5.2.2"
+  },
+  "devDependencies": {
+    "build-esm": "^4.2.2"
   }
 }

@@ -1,6 +1,6 @@
 {
   "name": "guardtower",
-  "version": "0.2.6",
+  "version": "0.2.7",
   "description": "JavaScript client for Guardtower.",
   "main": "lib/index.js",
   "files": [
